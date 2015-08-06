@@ -127,7 +127,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
 
   common:
     back: "Voltar" # When used as an action verb, like "Navigate backward"
-    continue: "Continue" # When used as an action verb, like "Continue forward"
+    continue: "Continuar" # When used as an action verb, like "Continue forward"
     loading: "Carregando..."
     saving: "Salvando..."
     sending: "Enviando..."
@@ -293,7 +293,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     tip_scrub_shortcut: "Ctrl+[ e Ctrl+] rebobina e avança." # {change}
     tip_guide_exists: "Clique no guia no topo da página para informações úteis."
     tip_open_source: "CodeCombat é 100% código aberto!"
-#    tip_tell_friends: "Enjoying CodeCombat? Tell your friends about us!"
+    tip_tell_friends: "Curtindo CodeCombat? Conte aos seus amigos!"
     tip_beta_launch: "CodeCombat lançou sua versão beta em outubro de 2013."
     tip_think_solution: "Pense na solução, não no problema."
     tip_theory_practice: "Na teoria, não existe diferença entre teoria e prática. Mas, na prática, há. - Yogi Berra"
@@ -337,7 +337,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     tip_recurse: "Para iterar é humano, para recursão, é divino. - L. Peter Deutsch"
     tip_free_your_mind: "Você tem que deixar isso tudo passar, Neo. O medo, a dúvida e a descrença. Liberte sua mente - Morpheus"
     tip_strong_opponents: "Mesmo o mais forte dos adversários tem sua fraqueza. - Itachi Uchiha"
-#    tip_paper_and_pen: "Before you start coding, you can always plan with a sheet of paper and a pen."
+   tip_paper_and_pen: "Antes de começar a programar, você pode planejar com uma folha de papel e caneta."
 
   game_menu:
     inventory_tab: "Inventário"
@@ -357,7 +357,7 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     auth_caption: "Salve seu progresso."
 
   leaderboard:
-#    leaderboard: "Leaderboard"
+    leaderboard: "Placar"
     view_other_solutions: "Ver Outras Soluções" # {change}
     scores: "Pontuação"
     top_players: "Top Jogadores por"
@@ -398,9 +398,9 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
 
   subscribe:
     comparison_blurb: "Afine suas habilidades com uma assinatura CodeCombat!"
-    feature1: "Mais de 60 níveis básicos entre 4 mundos" # {change}
-    feature2: "7 poderosos <strong>novos heróis</strong> com habilidades únicas!" # {change}
-    feature3: "Mais de 30 níveis bônus" # {change}
+    feature1: "Mais de 100 níveis básicos entre 4 mundos" # {change}
+    feature2: "10 poderosos <strong>novos heróis</strong> com habilidades únicas!" # {change}
+    feature3: "Mais de 70 níveis bônus" # {change}
     feature4: "<strong>3500 gemas bônus</strong> todo mês!"
     feature5: "Vídeo tutorials"
     feature6: "Suporte via e-mail Premium"
@@ -425,11 +425,11 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     parent_email_sent: "Email enviado!"
     parent_email_title: "Qual é o e-mail dos seus pais?"
     parents: "Para os pais"
-    parents_title: "Seus filhos estão aprendendo a programar." # {change}
+    parents_title: "Caro pai: Seu filho está aprendendo a programar. Você o ajudará a continuar?" # {change}
     parents_blurb1: "Com o CodeCombat, seus filhos aprendem a programar de verdade. Eles começam a aprender comandos simples, e progridem para tópicos avançados."
-#    parents_blurb1a: "Computer programming is an essential skill that your child will undoubtedly use as an adult. By 2020, basic software skills will be needed by 77% of jobs, and software engineers are in high demand across the world. Did you know that Computer Science is the highest-paid university degree?"
+    parents_blurb1a: "Programação computacional é uma habilidade essencial que seu filho irá, sem dúvida, usar como um adulto. Em 2020, habilidades básicas de software serão necessárias em 77% dos empregos e engenheiros de software estão em alta demanda ao redor do mundo. Você sabia que Ciência da Computação é a graduação universitária mais bem paga?"
     parents_blurb2: "Apenas $9.99 USD/mês, eles recebem novos desafios todo mês e suporte no email pessoal de programadores profissionais." # {change}
-    parents_blurb3: "Sem risco: 100% devolução do dinheiro garantida, basta um simples clique em desinscrever-se."
+    parents_blurb3: "Sem risco: 100% devolução do dinheiro garantida, basta um simples clique para se desinscrever-se."
     payment_methods: "Formas de pagamento"
     payment_methods_title: "Formas de pagamento aceitas"
     payment_methods_blurb1: "Aceitamos cartões de crédito e Alipay no momento."
@@ -437,14 +437,14 @@ module.exports = nativeDescription: "Português do Brasil", englishDescription: 
     stripe_description: "Inscrição Mensal"
     subscription_required_to_play: "Você precisará se inscrever para jogar este nível."
     unlock_help_videos: "Inscreva-se para desbloquear todos os vídeos tutoriais."
-    personal_sub: "Inscrição individual" # Accounts Subscription View below
-#    loading_info: "Loading subscription information..."
-#    managed_by: "Managed by"
+    personal_sub: "Assinatura individual" # Accounts Subscription View below
+    loading_info: "Carregando informações de assinatura..."
+    managed_by: "Gerenciado por"
     will_be_cancelled: "Será cancelada em"
-#    currently_free: "You currently have a free subscription"
-#    currently_free_until: "You currently have a free subscription until"
-#    was_free_until: "You had a free subscription until"
-#    managed_subs: "Managed Subscriptions"
+    currently_free: "Você atualmente tem uma assinatura grátis"
+    currently_free_until: "Você atualmente tem uma assinatura grátis até"
+    was_free_until: "Você tinha uma assinatura grátis até"
+    managed_subs: "Assinaturas gerenciadas"
 #    managed_subs_desc: "Add subscriptions for other players (students, children, etc.)"
 #    managed_subs_desc_2: "Recipients must have a CodeCombat account associated with the email address you provide."
     group_discounts: "Descontos para grupos"
